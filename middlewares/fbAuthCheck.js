@@ -64,8 +64,7 @@ exports.requiresAuth = async (req, res, next) => {
             isNewUser:true,
             position:{type:"Point",coordinates:[0,0]}
         });
-      } 
-        else {
+      } else {
           return next(new AppError("You are not authorized", 401));
         }
       }
