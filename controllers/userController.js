@@ -55,6 +55,4 @@ exports.deleteAccount = catchAsync(async(req,res)=>{
     }
   })
 
-
-
-
+  
